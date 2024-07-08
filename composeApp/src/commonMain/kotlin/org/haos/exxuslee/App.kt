@@ -85,7 +85,7 @@ internal fun App() = AppTheme {
 
         TextButton(
             modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp).widthIn(min = 200.dp),
-            onClick = { openUrl("https://github.com/terrakok") },
+            onClick = { },
         ) {
             Text(stringResource(Res.string.open_github))
         }
